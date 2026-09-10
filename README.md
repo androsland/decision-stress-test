@@ -37,8 +37,9 @@ Invoke it with `$decision-stress-test`.
 ### Claude Code
 
 Place the skill in `~/.claude/skills/decision-stress-test`. To keep it manual-only,
-either select `user-invocable-only` for the skill from Claude Code's `/skills`
-menu, or install `platforms/claude/SKILL.claude.md` as the directory's `SKILL.md`.
+either use Claude Code's `/skills` menu to hide it from Claude while keeping it
+user-invocable (`user-invocable-only` in `skillOverrides`), or install
+`platforms/claude/SKILL.claude.md` as the directory's `SKILL.md`.
 
 Invoke it with `/decision-stress-test`.
 
